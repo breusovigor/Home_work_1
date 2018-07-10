@@ -5,7 +5,7 @@
 /*09 July 2018*/
 
 //Task 2
-$tvChannelname = 'BBC';
+$tvChannelName = 'BBC';
 $manufacturerAddress = 'America Washington DC';
 $carColor = 'Black Metalic';
 $waterTemperature = '23';
@@ -84,7 +84,7 @@ $str1 .= $str3;
 echo $str1 . '</br>';
 
 //Task 9
-$array1 = array('one', 'two', 'three', 'four', 'five');
+$array1 = array('one', 'two', 'three', 'four', "element" => 'five');
 $array2 = array('six', 'seven', 'eight', 'nine', 'ten');
 unset($array2[0]);
 echo $array1[2] . '</br>';
